@@ -4,7 +4,7 @@
 [![Total Downloads](https://img.shields.io/packagist/dt/emuniq/filament-scrollable-topnav.svg?style=flat-square)](https://packagist.org/packages/emuniq/filament-scrollable-topnav)
 [![License](https://img.shields.io/packagist/l/emuniq/filament-scrollable-topnav.svg?style=flat-square)](LICENSE)
 
-A Filament v3 & v4 plugin that turns the top navigation into a single scrollable row instead of letting it wrap into multiple rows when you have many navigation groups or clusters. Adds horizontal mouse-wheel scrolling and an edge-fade affordance so users can tell there's more to see.
+A Filament v3, v4 & v5 plugin that turns the top navigation into a single scrollable row instead of letting it wrap into multiple rows when you have many navigation groups or clusters. Adds horizontal mouse-wheel scrolling and an edge-fade affordance so users can tell there's more to see.
 
 ## Demo
 
@@ -25,8 +25,10 @@ Filament's `topNavigation()` wraps clusters into two (or more) rows when they do
 ## Requirements
 
 - PHP 8.1+
-- Laravel 10, 11, or 12
-- Filament 3.0+ or 4.0+
+- Laravel 10, 11, 12, or 13
+- Filament 3.x, 4.x, or 5.x
+
+[Filament 5](https://filamentphp.com/docs/5.x/upgrade-guide) requires PHP 8.2+, Laravel 11.28+, and Livewire 4. When using [Laravel 13](https://laravel.com/docs/13.x/releases), PHP 8.3+ is required. Composer enforces the requirements of your selected framework versions.
 
 ## Installation
 
